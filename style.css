@@ -99,3 +99,52 @@ body {
     right: 45px;
     box-shadow: 1px 2px 9px #b9b9b957;
 }
+
+.process-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    height: 50vh;
+    background-color:#226FFF;
+}
+
+.process-section h1{
+    font-weight:bold;
+}
+
+.process-container {
+    display: flex;
+    align-items: center;
+    width: 650px;
+}
+
+.process-description p{
+    font-size: .7rem;
+    margin-bottom:40px;
+}
+
+.process-description h4{
+    font-weight:bolder;
+}
+
+.process-box-1{
+    height:180px;
+    padding-right:30px;
+    border-right: 1px solid white;
+}
+
+.process-box-2{
+    height:180px;
+    padding-right:30px;
+    padding-left:30px;
+    border-right: 1px solid white;
+}
+
+.process-box-3{
+    height:180px;
+    padding-right:30px;
+    padding-left:30px
+}
+
+
