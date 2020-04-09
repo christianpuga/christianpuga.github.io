@@ -215,29 +215,33 @@ body {
 }
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 500px) {
+
     .first-section {
-        height:800px;
+        height:650px;
+        width:90%;
+        margin-left:20px;
     }
 
-    .left-side {
-        width:450px;    
+    .left-side { 
+        display:flex;
+        flex-direction:column;
     }
     
     .left-side h3,h4 {
         font-weight: lighter;
         margin:0;
-        font-size:1.5rem;
+        font-size:1.2rem;
     }
     
     .left-side h1 {
         font-weight: bold;
         margin:0;
-        font-size:3rem;
+        font-size:2.5rem;
     }
     
     .left-side p{
-        font-size: 1.2rem;
+        font-size: .9rem;
         margin-bottom:0;
     }
 
@@ -257,13 +261,13 @@ body {
         text-decoration: none;
         display: inline-block;
         font-weight: 500;
-        font-size: 1.3rem;
+        font-size: 1rem;
         margin-bottom:70px;
     }
 
     .fs-link {
         font-weight: 500;
-        font-size: 1.3rem;
+        font-size: 1rem;
         cursor: pointer;
         text-decoration: none;
         color:#226FFF
@@ -271,7 +275,7 @@ body {
 
     .logos-section{
         height:400px;
-        width: 100vh;
+        width: 100vw;
         display:flex;   
         align-items: center;
         flex-direction:column;
