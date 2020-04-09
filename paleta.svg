@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="413" height="95" viewBox="0 0 413 95">
+  <defs>
+    <filter id="Rectángulo_1379" x="13" y="32" width="124" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#464646" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_1380" x="144" y="32" width="125" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#464646" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectángulo_1382" x="271" y="32" width="126" height="60" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#464646" flood-opacity="0.231"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_720" data-name="Grupo 720" transform="translate(-0.388)">
+    <rect id="Rectángulo_1378" data-name="Rectángulo 1378" width="413" height="95" transform="translate(0.388)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 0.39, 0)" filter="url(#Rectángulo_1379)">
+      <rect id="Rectángulo_1379-2" data-name="Rectángulo 1379" width="106" height="42" transform="translate(22 38)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0.39, 0)" filter="url(#Rectángulo_1380)">
+      <rect id="Rectángulo_1380-2" data-name="Rectángulo 1380" width="107" height="42" transform="translate(153 38)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0.39, 0)" filter="url(#Rectángulo_1382)">
+      <rect id="Rectángulo_1382-2" data-name="Rectángulo 1382" width="108" height="42" transform="translate(280 38)" fill="#fff"/>
+    </g>
+    <rect id="Rectángulo_1373" data-name="Rectángulo 1373" width="43" height="42" transform="translate(22.388 38)" fill="#2a213c"/>
+    <rect id="Rectángulo_1381" data-name="Rectángulo 1381" width="43" height="42" transform="translate(153.388 38)" fill="#ff5364"/>
+    <rect id="Rectángulo_1383" data-name="Rectángulo 1383" width="44" height="42" transform="translate(280.388 38)" fill="#e8c949"/>
+    <text id="_2A213C" data-name="#2A213C" transform="translate(72.388 60)" fill="#1f1f1f" font-size="9" font-family="Raleway-Medium, Raleway" font-weight="500"><tspan x="0" y="0">#2A213C</tspan></text>
+    <text id="Paleta_de_colores" data-name="Paleta de colores" transform="translate(22.388 25)" fill="#101010" font-size="11" font-family="Raleway-Bold, Raleway" font-weight="700"><tspan x="0" y="0">Paleta de colores</tspan></text>
+    <text id="_FF5364" data-name="#FF5364" transform="translate(206.388 59)" fill="#1f1f1f" font-size="9" font-family="Raleway-Medium, Raleway" font-weight="500"><tspan x="0" y="0">#FF5364</tspan></text>
+    <text id="_E8C949" data-name="#E8C949" transform="translate(333.388 59)" fill="#1f1f1f" font-size="9" font-family="Raleway-Medium, Raleway" font-weight="500"><tspan x="0" y="0">#E8C949</tspan></text>
+  </g>
+</svg>
