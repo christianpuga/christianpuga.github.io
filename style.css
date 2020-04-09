@@ -214,3 +214,77 @@ body {
     background-color:#1A3DFF;
 }
 
+
+@media all and (max-width: 800px) {
+    .first-section {
+        height:800px;
+        width: 100vh;
+
+    }
+
+    .left-side {
+        width:450px;
+        margin-right:100px;     
+    }
+    
+    .left-side h3,h4 {
+        font-weight: lighter;
+        margin:0;
+        font-size:1.5rem;
+    }
+    
+    .left-side h1 {
+        font-weight: bold;
+        margin:0;
+        font-size:3rem;
+    }
+    
+    .left-side p{
+        font-size: 1.2rem;
+        margin-bottom:0;
+    }
+
+    .links-container {
+        display: flex;
+        align-items: flex-start;
+        margin-top: 4em;
+        flex-direction:column;
+    }
+
+    .btn-primary {
+        background-color: #226FFF;
+        border: none;
+        color: white;
+        padding: 1.3em 3.3em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-weight: 500;
+        font-size: 1.3rem;
+        margin-bottom:70px;
+    }
+
+    .fs-link {
+        font-weight: 500;
+        font-size: 1.3rem;
+        cursor: pointer;
+        text-decoration: none;
+        color:#226FFF
+    }
+
+    .logos-section{
+        height:400px;
+        width: 100vh;
+        display:flex;   
+        align-items: center;
+        flex-direction:column;
+        justify-content: space-evenly;
+        background-color: #F2F2F2;
+    }
+
+
+
+    .right-side {
+      display:none;
+    }
+  }
