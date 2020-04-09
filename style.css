@@ -283,9 +283,80 @@ body {
         background-color: #F2F2F2;
     }
 
-
-
     .right-side {
       display:none;
+    }
+
+    .contact-section {
+        display:flex;
+        flex-direction:column-reverse;
+        height:680px; 
+    }
+
+    .contact-right-side{
+        height: auto;
+        width: 330px;
+    }
+
+    .box-colors {
+        top:0;
+        right:0;
+        width:330px;
+    }
+
+    .contact-left-side{
+        margin-top:-30px;
+    }
+
+    .process-section {
+        height:850px;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .process-container {
+        display:flex;
+        flex-direction:column;
+        width:290px;
+    }
+
+    .process-description p{
+        font-size:1rem;
+    }
+
+    .process-box-1{
+        padding:0;
+        border-right: none;
+        margin-bottom:50px
+    }
+
+    .process-box-2{
+        padding:0;
+        border-right: none;
+        margin-bottom:50px
+    }
+
+    .process-box-3{
+        height: 150px;
+        padding:0;
+    }
+
+    .work-section {
+        flex-direction:column;
+        height:600px;
+    }
+
+    .work-right-side{
+        margin-top:70px;
+    }
+
+    .social-container {
+        display:none;
+        height:400px;
+        width: 100vw;  
+        align-items: center;
+        flex-direction:column;
+        justify-content: center;
+        background-color: #F2F2F2;
     }
   }
