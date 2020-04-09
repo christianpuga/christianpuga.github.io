@@ -218,13 +218,10 @@ body {
 @media all and (max-width: 800px) {
     .first-section {
         height:800px;
-        width: 100vh;
-
     }
 
     .left-side {
-        width:450px;
-        margin-right:100px;     
+        width:450px;    
     }
     
     .left-side h3,h4 {
