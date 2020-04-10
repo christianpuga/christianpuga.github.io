@@ -67,6 +67,30 @@ body {
     background-color: #F2F2F2;
 }
 
+.row-1 {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
+    margin-right: 90px;
+}
+
+.row-2 {
+    margin-right: 70px;
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+.row-1 img{
+    margin-left: 120px;
+}
+
+.row-2 img {
+    margin-left: 120px;
+    margin-top:15px;
+}
+
+
 .contact-section {
     height: 80vh;
     display: flex;
@@ -278,12 +302,7 @@ body {
 
     .logos-section{
         height:400px;
-        width: 100vw;
-        display:flex;   
-        align-items: center;
         flex-direction:column;
-        justify-content: space-evenly;
-        background-color: #F2F2F2;
     }
 
     .right-side {
@@ -377,4 +396,17 @@ body {
         justify-content: center;
         background-color: #F2F2F2;
     }
+
+    .row-1 {
+        margin-right: 50px;
+    }
+
+    .row-1 img{
+        margin-left: 40px;
+    }
+
+    .row-2 img {
+        margin-left: 50px;
+    }
+
   }
