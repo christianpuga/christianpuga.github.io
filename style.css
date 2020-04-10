@@ -278,7 +278,8 @@ body {
     }
     
     .left-side p{
-        width: 310px;
+        width: 315px;
+        text-align: justify;
         font-size: .9rem;
         margin-bottom:0;
     }
