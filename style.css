@@ -11,7 +11,7 @@ body {
 }
 
 .left-side {
-    width: 365px;
+    width: 345px;
 }
 
 .left-side h3,h4 {
@@ -220,7 +220,7 @@ body {
     .first-section {
         height:650px;
         width:90%;
-        margin-left:20px;
+        margin-left:30px;
     }
 
     .left-side { 
@@ -237,7 +237,7 @@ body {
     .left-side h1 {
         font-weight: bold;
         margin:0;
-        font-size:2.5rem;
+        font-size:2.35rem;
     }
     
     .left-side p{
@@ -290,7 +290,8 @@ body {
     .contact-section {
         display:flex;
         flex-direction:column-reverse;
-        height:680px; 
+        height:680px;
+
     }
 
     .contact-right-side{
@@ -306,6 +307,11 @@ body {
 
     .contact-left-side{
         margin-top:-30px;
+        margin-left:20px;
+    }
+
+    .contact-left-side p{
+        width:345px;
     }
 
     .process-section {
@@ -343,15 +349,23 @@ body {
 
     .work-section {
         flex-direction:column;
-        height:600px;
+        height:580px;
+    }
+
+    .work-left-side img{
+        width:330px;
     }
 
     .work-right-side{
         margin-top:70px;
+        margin-left:20px;
     }
 
-    .social-container {
-        display:none;
+    .work-right-side p{
+        width:345px;
+    }
+
+    .footer-section {
         height:400px;
         width: 100vw;  
         align-items: center;
