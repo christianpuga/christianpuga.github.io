@@ -25,11 +25,13 @@ body {
 }
 
 .left-side p{
+    width:400px;
     font-size: .9rem;
     margin-bottom:0;
 }
 
 .links-container {
+    width: 345px;
     display: flex;
     align-items: center;
     margin-top: 4em;
@@ -241,6 +243,7 @@ body {
     }
     
     .left-side p{
+        width: 350px;
         font-size: .9rem;
         margin-bottom:0;
     }
